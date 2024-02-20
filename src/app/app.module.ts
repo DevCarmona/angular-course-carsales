@@ -4,16 +4,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardModule } from 'primeng/card';
+import { LoginComponent } from './views/login/login.component';
+import { InputTextModule } from 'primeng/inputtext';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    CardModule
+    CardModule,
+    InputTextModule
   ],
   providers: [],
   bootstrap: [AppComponent]
