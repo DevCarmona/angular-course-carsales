@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CardModule } from 'primeng/card';
 import { LoginComponent } from './views/login/login.component';
 import { InputTextModule } from 'primeng/inputtext';
+import { ButtonModule } from 'primeng/button';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { InputTextModule } from 'primeng/inputtext';
     BrowserAnimationsModule,
     AppRoutingModule,
     CardModule,
-    InputTextModule
+    InputTextModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
