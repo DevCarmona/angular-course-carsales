@@ -3,6 +3,14 @@
 $background-color: #252525 !important;
 $font-color: #fff !important;
 
+body {
+    background-image: url(./assets/login-saude3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.90;
+}
+
 
 .p-card {
     background-color: $background-color;
